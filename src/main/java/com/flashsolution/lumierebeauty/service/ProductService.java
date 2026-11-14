@@ -15,7 +15,12 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
+    // Get all products
     public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
-}
+
+    // Create a new productuct createProduct(Product product) {
+        return productReposito
+    public Prodry.save(product);
+    }
